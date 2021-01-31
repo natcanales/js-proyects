@@ -16,7 +16,7 @@
     in the matrix. For example:
 
         // We create the grid
-        let grid = createGrid(7, 7);
+        let grid = createGrid(8, 8);
 
         // We define an array of obstacles
         let obstacles = [
