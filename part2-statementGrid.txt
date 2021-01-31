@@ -1,0 +1,44 @@
+/*****************************************************************************
+
+    Create now a function that will receive the matrix as first
+    parameter, and an array of objects as second parameter. The
+    objects contained in the array will specify the position of
+    some obstacles.
+
+    Each element of the array will be like the following one:
+
+        {
+            x: 2,
+            y: 6
+        }
+
+    The position specified by the object will be set as 'true'
+    in the matrix. For example:
+
+        // We create the grid
+        let grid = createGrid(7, 7);
+
+        // We define an array of obstacles
+        let obstacles = [
+            {x: 2, y: 6},
+            {x: 3, y: 1},
+            {x: 7, y: 2}
+        ];
+
+        // We set the obstacles in the grid
+        setObstacles(grid, obstacles);
+
+    After calling the 'setObstacles' function from the example,
+    the grid would have the specified positions with 'true' as
+    value.
+
+    Once you have created the function, call it after creating
+    the grid and put the number of obstacles you want, but with
+    the following rules:
+
+        - There must be at least 10 obstacles
+        - The function to set obstacles must check for each
+          position if it is a valid position (i.e., does not
+          exceed the number of rows and/or columns)
+
+*****************************************************************************/

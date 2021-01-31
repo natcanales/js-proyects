@@ -18,8 +18,4 @@
     there is an object in a concrete cell or not. Initializing all
     the cells to 'false' will mean that there are no obstacles yet.
 
-    Once the matrix/grid is created, place some obstacles in it by
-    setting some cells to 'true' (the ones you want). There must be
-    10 obstacles in the grid, independently of its size.
-
 *****************************************************************************/
